@@ -8,7 +8,7 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Mabook Air M3 15-inch",
+    title: "Macbook Air M3 15-inch",
     description:"Newly Launched Macbook Air M3 is now available at ShopEasy.Order now and get FREE Macbook Cover Case.",
   },
   {

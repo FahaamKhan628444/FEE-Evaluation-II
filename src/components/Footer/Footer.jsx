@@ -20,19 +20,19 @@ const BannerImg = {
 
 const FooterLinks = [
   {
-    title: "Home",
+    title: "Contact us",
     link: "/#",
   },
   {
-    title: "About",
+    title: "Career",
     link: "/#about",
   },
   {
-    title: "Contact",
+    title: "Stores",
     link: "/#contact",
   },
   {
-    title: "Blog",
+    title: "About us",
     link: "/#blog",
   },
 ];

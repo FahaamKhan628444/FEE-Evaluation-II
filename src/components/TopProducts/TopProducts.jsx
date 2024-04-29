@@ -1,30 +1,30 @@
 import React from "react";
 import Img1 from "../../assets/shirt/phone.png";
-import Img2 from "../../assets/shirt/key.png";
-import Img3 from "../../assets/shirt/shirt3.png";
+import Img2 from "../../assets/shirt/earpods.png";
+import Img3 from "../../assets/shirt/samsung.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Men's Wear",
+    title: "Apple Iphone 15 Pro Max",
     description:
-      "Collection of more than 100 premium designs of men's wear",
+      "Get 10% off ,our Price: 1,05,000",
   },
   {
     id: 2,
     img: Img2,
-    title: "Printed shirt",
+    title: "Apple Airpods pro 2",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Get lower price deal only on SHOPEASY , Price: 14,999",
   },
   {
     id: 3,
     img: Img3,
-    title: "Women shirt",
+    title: "Samsung s24 ultra",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Get 5% discount on SBI Credit Card and get 2000 Cashback",
   },
 ];
 const TopProducts = ({ handleOrderPopup }) => {
@@ -51,7 +51,7 @@ const TopProducts = ({ handleOrderPopup }) => {
               className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
             >
               {/* image section */}
-              <div className="h-[50px]">
+              <div className="h-[85px]">
                 <img
                   src={data.img}
                   alt=""

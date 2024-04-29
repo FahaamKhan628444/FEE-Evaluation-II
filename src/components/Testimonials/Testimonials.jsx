@@ -21,8 +21,14 @@ const TestimonialData = [
     // img: "https://picsum.photos/104/104",
   },
   {
+    id: 4,
+    name: "Kheyanshu Garg",
+    text: "ShopEasy always provides discounts on each item. I love to shopping with ShopEasy.",
+    // img: "https://picsum.photos/104/104",
+  },
+  {
     id: 5,
-    name: "Dilpreet Singh",
+    name: "Keshav Dhiman",
     text: "Shopeasy exactly do what they are saying. The price, delivery staus etc.",
     // img: "https://picsum.photos/103/103",
   },
@@ -73,9 +79,9 @@ const Testimonials = () => {
         {/* header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-2xl text-primary">
-            We are loved by our Customers
+            Our Happy Customers
           </p>
-          <p data-aos="fade-up" className="text-xs text-gray-700">
+          <p data-aos="fade-up" className="text-xl text-gray-700">
             Check what our customers are saying about us!
           </p>
         </div>

@@ -66,7 +66,7 @@ const Navbar = ({ handleOrderPopup }) => {
               <img src={Logo} alt="Logo" className="w-10" />
               ShopEasy
             </a>
-            <div className="md:text-xs md:text-right text-red-900 italic">
+            <div className="md:text-xS md:text-right text-red-900 italic">
             <p>Shop Smart, Shop Easy !</p> 
             </div>
             
