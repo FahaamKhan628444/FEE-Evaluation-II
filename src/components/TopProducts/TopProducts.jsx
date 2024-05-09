@@ -17,14 +17,14 @@ const ProductsData = [
     img: Img2,
     title: "Apple Airpods pro 2",
     description:
-      "Get lower price deal only on SHOPEASY , Price: 14,999",
+      "Get lower price deal only on SHOPEASY , our Price: 14,999",
   },
   {
     id: 3,
     img: Img3,
     title: "Samsung s24 ultra",
     description:
-      "Get 5% discount on SBI Credit Card and get 2000 Cashback",
+      "Get 5% discount on SBI Credit Card and get additional Rs.2000 Cashback",
   },
 ];
 const TopProducts = ({ handleOrderPopup }) => {
